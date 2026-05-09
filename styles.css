@@ -76,10 +76,12 @@ May 1, 2025
 .navbar-menu {
     display: flex;
     justify-content: center;
+    list-style: none;
 }
 
 .navbar-item {
     height: 5rem;
+    list-style: none;
 }
 
 .navbar-link {
@@ -224,7 +226,7 @@ May 1, 2025
         margin-bottom: 4rem;
         padding: 0 32px;
     }
-    
+
     .intro-content h1 {
         font-size: 2.5rem;
         margin-top: 2rem;
@@ -313,7 +315,7 @@ May 1, 2025
         text-align: center;
         padding: 0 2rem;
     }
-    
+
     .overview-content h1 {
         font-size: 2.5rem;
         margin-top: 2rem;
@@ -542,7 +544,7 @@ May 1, 2025
         text-align: center;
         padding: 0 2rem;
     }
-    
+
     .item-content h1 {
         font-size: 1.5rem;
         margin-top: 2rem;
@@ -620,7 +622,8 @@ May 1, 2025
         flex-direction: column;
     }
 
-    #footer-logo, .website-rights {
+    #footer-logo,
+    .website-rights {
         margin-bottom: 1rem;
     }
 
@@ -628,4 +631,3 @@ May 1, 2025
         text-align: center;
     }
 }
-
