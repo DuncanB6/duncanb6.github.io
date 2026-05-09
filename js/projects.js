@@ -9,7 +9,7 @@ May 2, 2025
 const projectListDiv = document.getElementById("project-list");
 
 // static list of project IDs
-const projectIds = ['foghorn', '3dprinting', 'billboard', 'capstone', 'dashlight', 'elec291', 'elec391', 'elec442'];
+const projectIds = ['clockout', 'foghorn', '3dprinting', 'billboard', 'capstone', 'dashlight', 'elec291', 'elec391', 'elec442'];
 
 async function loadProjectData(id) {
   const res = await fetch(`projects/${id}.json`);

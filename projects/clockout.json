@@ -1,0 +1,17 @@
+{
+  "id": "clockout",
+  "title": "Clockout",
+  "date": "2026-05-08",
+  "description": "An analog clock that only updates to the current time when you look at it.",
+  "fullDescription": "This project uses a Raspberry Pi to control a set of peripherals for a somewhat pointless clock. It only updates its time when a person looks directly at it, as detected by a camera. Clock hand movement is controlled using a stepper motor, and an IR sensor detects movement to avoid searching for faces at all times.",
+  "images": [
+    "images/projects/clockout/title.jpg",
+    "images/projects/clockout/back_closed.jpg",
+    "images/projects/clockout/front.png",
+    "images/projects/clockout/gears_open.png",
+    "images/projects/clockout/back_open.jpg"
+  ],
+  "links": {
+    "github": "https://github.com/DuncanB6/clockout"
+  }
+}
